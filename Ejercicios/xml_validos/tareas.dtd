@@ -1,0 +1,27 @@
+<!--ues.dtd-->
+<!ELEMENT ues (facultad)>
+<!ATTLIST ues uni CDATA #FIXED "Universidad de El Salvador">
+
+<!ELEMENT facultad (carrera)>
+<!ATTLIST facultad codigo CDATA #REQUIRED, nombre CDATA #REQUIRED>
+
+<!ELEMENT carrera (materias+)>
+<!ATTLIST carrera cod CDATA #REQUIRED, nom CDATA #REQUIRED>
+
+<!ELEMENT materias (tipodegrupo?)>
+<!ATTLIST materias nombre CDATA #REQUIRED, codigo CDATA #REQUIRED>
+
+<!ELEMENT tipodegrupo (docente, equipos, actividadev)>
+<!ATTLIST tipodegrupo grupo (GL|GT|GD)+ #REQUIRED numero CDATA #REQUIRED>
+
+<!ELEMENT docente (#PCDATA)>
+<!ATTLIST docente nombre CDATA #REQUIRED>
+
+<!ELEMENT actividadev (#PCDATA)>
+<!ATTLIST actividadev tarea CDATA #REQUIRED, porcentaje CDATA #REQUIRED>
+
+<!ELEMENT equipos (alumno){4}>
+<!ATTLIST equipos numero CDATA #REQUIRED, tema CDATA #REQUIRED>
+
+<!ELEMENT alumno (#PCDATA)>
+<!ATTLIST alumno carne CDATA #REQUIRED, apellidos CDATA #REQUIRED, nombres CDATA #REQUIRED, sexo (M|F|otro) #FIXED "M", rol (coordinador|integrante) #FIXED "integrante">

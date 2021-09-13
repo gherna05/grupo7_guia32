@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ues SYSTEM "tareas.dtd">
+<?xml-stylesheet type="text/css" href="tareas.css" ?>
+
+<ues>
+<facultad codigo="001" nombre="Facultad de Ingenieria y Arquitectura">
+<carrera cod="I10515" nom="Ingenieria en Sistemas Informaticos">
+<materias nombre="TECNICAS DE PROGRAMACIÓN PARA INTERNET" codigo="TPI115">
+
+<tipodegrupo grupo="GL" numero="1">
+
+<docente nombre="Balmore Ortiz">
+</docente>
+
+<equipos numero="1" tema="TDT">
+
+<alumno carne="AL13013" nombres="Guillermo" apellidos="Amaya" sexo="M" rol="coordinador">
+</alumno>
+
+<alumno carne="AB13027" nombres="Daniela" apellidos="Andrade" sexo="F" rol="integrante">
+</alumno>
+
+<alumno carne="HL18006" nombres="Gabriela" apellidos="Hernandez" sexo="F" rol="integrante">
+</alumno>
+
+<alumno carne="MG16039" nombres="Monica" apellidos="Castillo" sexo="F" rol="integrante">
+</alumno>
+</equipos>
+
+<actividadev tarea="Investigacion XML" porcentaje="30%">
+</actividadev>
+
+</tipodegrupo>
+
+<tipodegrupo grupo="GL" numero="2">
+
+<docente nombre="Balmore Ortiz">
+</docente>
+
+<equipos numero="2" tema="XML">
+
+<alumno carne="MM12012" nombres="Ariel" apellidos="Morales" sexo="M" rol="coordinador">
+</alumno>
+
+<alumno carne="GR14014" nombres="Gabriela" apellidos="Garcia" sexo="F" rol="integrante">
+</alumno>
+
+<alumno carne="MF01110" nombres="Brenda" apellidos="Martinez" sexo="F" rol="integrante">
+</alumno>
+
+<alumno carne="HV14541" nombres="Kathya" apellidos="Carbajal" sexo="F" rol="integrante">
+</alumno>
+</equipos>
+
+<actividadev tarea="Espeficación de ATTLISTs" porcentaje="10%">
+</actividadev>
+
+</tipodegrupo>
+
+</materias>
+</carrera>
+</facultad>
+</ues>

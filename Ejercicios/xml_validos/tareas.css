@@ -1,0 +1,113 @@
+ues 
+{
+ background-color: rgb(214, 228, 233);
+ font-weight: bold;
+}
+facultad
+{
+    display: block;
+}
+
+facultad[codigo]::before
+{
+    
+ content: "Codigo de facultad: " attr(codigo) ;
+}
+
+facultad[nombre]::after
+{
+  
+ content: "Nombre de facultad: " attr(nombre) ;
+}
+
+carrera
+{
+    display: block;
+}
+
+carrera[cod]::before
+{
+    color: blue;
+    content: "codigo carrera" attr(cod);
+}
+
+carrera[nom]::after
+{
+    content: "nombre carrera" attr(nom);
+}
+
+tipodegrupo
+{
+    display: block;
+}
+
+tipodegrupo[grupo]::before
+{
+    content: "tipo de grupo: " attr(grupo);
+
+}
+
+tipodegrupo[grupo]::after
+{
+    content: "numero de grupo: " attr(numero);
+
+}
+
+
+docente
+{
+    display: block;
+}
+
+docente[nombre]::before
+{
+    content: "nombre del docente : " attr(nombre);
+
+}
+
+equipos
+{
+    display: block;
+}
+
+equipos[numero]::before
+{
+    content: "numero de tema: "attr(numero);
+
+}
+
+equipos[temas]::after
+{
+    content: "tema asignado: "attr(temas);
+
+}
+
+
+alumno
+{
+    display: block;
+}
+
+alumno[carne]::before
+{
+    content: "carné del alumno: "attr(carne);
+    
+}
+
+alumno[rol]::after
+{
+    content: "rol del alumno: "attr(rol);
+    
+}
+
+actividadev
+{
+    display: block;
+}
+
+actividadev[tarea]::before
+{
+    content: "tema a investigar: " attr(tarea);
+
+}
+

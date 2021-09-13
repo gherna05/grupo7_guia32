@@ -1,0 +1,45 @@
+*{display: block; margin-left:  auto;
+    margin-right: auto; 
+    margin-top: 10px;text-align: center;font: bold italic 20px verdana}
+
+ficha
+{
+background-color: rgb(14, 13, 105)
+}
+
+nombre
+{
+color: red;
+}
+
+nombre[sexo]::before
+{
+    color: blanchedalmond;
+    content: " Sexo: " attr(sexo) " ";
+}
+
+nombre[edad]::after
+{
+    color: blanchedalmond;
+    content: " " attr(edad);
+}
+
+apellido
+{
+color: greenyellow;
+}
+
+direccion
+{
+color: yellow;
+}
+
+DUI
+{
+color: orange;
+}
+
+fichero
+{
+    background-color: black;
+}

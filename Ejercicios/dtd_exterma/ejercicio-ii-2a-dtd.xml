@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejercicio-ii-1b-dtd.xml -->
-
+<?xml-stylesheet type="text/css" href="../../stiloss.css"?>
 <!DOCTYPE fichero SYSTEM "ii-2a-fichero.dtd">
 <fichero>
  <ficha>

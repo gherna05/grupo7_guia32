@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejerciciodtd2.xml GRUPO7 -->
-
+<?xml-stylesheet type="text/css" href="estilo-ii-1b.css"?>
 <!DOCTYPE fichero SYSTEM "ii-2b-fichero.dtd">
 
 <fichero>

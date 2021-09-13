@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejercicio-ii-1b-dtd.xml -->
+
+<!DOCTYPE fichero SYSTEM "ii-2a-fichero.dtd">
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <dui>02221803-5</dui>
+  <NIT>0214-120878-101-5</NIT>
+  <telefono>2313-8874</telefono>
+  <telefono>7013-2124</telefono>
+ </ficha>
+</fichero>

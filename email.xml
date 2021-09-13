@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<!-- ejercicio.xml -->
+
+<!DOCTYPE correo [
+    <!ELEMENT correo (email+)>
+    <!ELEMENT email (destinatario+, asunto, cuerpo?, adjuntos+)>
+		<!ELEMENT destinatario (#PCDATA)>
+		<!ELEMENT asunto (#PCDATA)>
+		<!ELEMENT cuerpo (#PCDATA)>
+		<!ELEMENT adjuntos (#PCDATA)>
+		<!ELEMENT archivo (#PCDATA)>
+		]>
+		
+<correo>
+
+  <email>
+    <destinatario>hf16478@ues.edu.sv</destinatario>
+    <destinatario>dr15013@ues.edu.sv</destinatario>
+    <asunto>Enviando Guia 32</asunto>
+    <cuerpo>Aqui le enviamos la guia 32, esperamos sea de su grado xD</cuerpo>
+  </email>
+  
+  <email>
+    <destinatario>uf12084@ues.edu.sv</destinatario>
+    <asunto>Enviando Examen</asunto>
+    <cuerpo>Aqui le enviamos el Examen, no nos enojamos si nos pone 10 :v</cuerpo>
+    <adjuntos>Archivo adjunto: </adjuntos>
+    <archivo>....</archivo>
+  </email>
+
+</correo>

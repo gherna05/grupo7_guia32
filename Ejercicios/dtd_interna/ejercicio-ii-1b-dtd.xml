@@ -1,8 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejemplodtd1.xml GRUPO7 -->
+<?xml-stylesheet type="text/css" href="estilo-ii-1b.css" ?>
+
 <!DOCTYPE fichero [
 <!ELEMENT fichero (ficha+)>
-<!ELEMENT ficha (nombre?, apellido, direccion*, DUI?)>
+<!ELEMENT ficha (nombre+, apellido, direccion*, DUI+)>
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre sexo (otro|masculino|femenino) #REQUIRED>
 <!ATTLIST nombre edad CDATA #IMPLIED>
@@ -12,8 +14,9 @@
 
 <fichero>
 <ficha>
-<nombre sexo="asdfasdfasdf" edad="17">Angelina</nombre>
+<nombre sexo="otro" edad="17">Angelina</nombre>
 <apellido>Fernandez</apellido>
 <direccion>c/Ulises, 36</direccion>
+<DUI>02050913-9</DUI>
 </ficha>
 </fichero>

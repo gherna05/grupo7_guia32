@@ -1,0 +1,31 @@
+/**/
+
+email{
+	background-color:#8eeef7;
+	margin: 0 0 25px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+	border: 2px solid #5878ca;
+	display:block;
+}
+
+destinatario, asunto, cuerpo{
+	display:block;
+}
+
+adjuntos{
+	display:block;
+	font-size:0.4cm;
+	font-weight:bold;
+	
+}
+
+archivo{
+	display:inline;
+	font-size:12.4cm;
+	background-image: url("feliz.png");
+	color:yellow;
+}

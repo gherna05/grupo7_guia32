@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="stiloss.css"?>
+<!-- ejercicio-ii-1a-dtd.xml -->
+
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+)>
+    <!ELEMENT ficha (nombre, apellido, direccion*, DUI?, NIT, telefono*)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+    <!ATTLIST nombre edad  CDATA  #IMPLIED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT NIT (#PCDATA)>
+		<!ELEMENT telefono (#PCDATA)>
+		]>
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <DUI>02221803-5</DUI>
+  <NIT>0214-120878-101-5</NIT>
+  <telefono>2313-8874</telefono>
+  <telefono>7013-2124</telefono>
+ </ficha>
+</fichero>

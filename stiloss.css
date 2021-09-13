@@ -1,0 +1,39 @@
+/* ejercicio-ii-1a-dtd.css		DR15013 */
+
+fichero{
+	background-color:#02b61b;
+	text-align:center;
+}
+
+nombre[sexo]::before{
+	content:attr(sexo)" - " attr(edad);
+	background-color:#02b61b;
+	display:block;
+}
+
+nombre, apellido, direccion{
+	background-color:#02b61b;
+	font-weight:bold;
+	font-size:1.2cm;
+	color:white;
+	font-family:"MV Boli";
+}
+
+direccion{
+	display:block;
+	color:#ff19fa;
+}
+
+DUI, NIT {
+	font-family: "Centaur";
+	font-size:1.2cm;
+	display:block;
+	font-weight:bold;
+	color:#31fdfb;
+}
+
+telefono{
+	display:block;
+	font-size:1.2cm;
+	font-weight:bold;
+}
